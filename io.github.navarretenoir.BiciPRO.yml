@@ -17,9 +17,9 @@ modules:
       - make -C desktop UI_DIR=/app/share/bicipro/web
       - install -Dm755 desktop/bicipro /app/bin/bicipro
       - mkdir -p /app/share/bicipro && cp -r web /app/share/bicipro/ && rm -f /app/share/bicipro/web/*.bak*
-      - install -Dm644 linux/io.github.navarretenoir.BiciPRO.desktop /app/share/applications/io.github.navarretenoir.BiciPRO.desktop
-      - install -Dm644 linux/io.github.navarretenoir.BiciPRO.metainfo.xml /app/share/metainfo/io.github.navarretenoir.BiciPRO.metainfo.xml
-      - install -Dm644 linux/io.github.navarretenoir.BiciPRO.svg /app/share/icons/hicolor/scalable/apps/io.github.navarretenoir.BiciPRO.svg
+      - install -Dm644 linux/${FLATPAK_ID}.desktop -t /app/share/applications/
+      - install -Dm644 linux/${FLATPAK_ID}.metainfo.xml -t /app/share/metainfo/
+      - install -Dm644 linux/${FLATPAK_ID}.svg -t /app/share/icons/hicolor/scalable/apps/
     sources:
       - type: git
         url: https://github.com/navarretenoir/bicipro.git
