@@ -23,5 +23,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/navarretenoir/metrochile.git
-        tag: v2.1.1
-        commit: 4d96ed2f5486d7cb48bc91307f7242ae994cc70b
+        tag: v2.2.1
+        commit: f9f350bfb35aee81bc22dc84d44af3492d1ce256
