@@ -22,5 +22,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/navarretenoir/reglade3.git
-        tag: v1.0
-        commit: 90124e03b44f7747efada3a799c13c03fba9d590
+        tag: v1.0.2
+        commit: 7b1d33a02b41469828e686896a8c15cd968b05a8
