@@ -23,5 +23,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/navarretenoir/bicipro.git
-        tag: v1.0.2
-        commit: 8ba33e577421d66b1d970b1634786b5db173482b
+        tag: v1.3.0
+        commit: 8849ad77b65bc4d1494f57ba1e5b1eafb191df05
