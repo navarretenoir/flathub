@@ -22,5 +22,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/navarretenoir/artemischilelite.git
-        tag: v1.0
-        commit: 3f1596d48d2f8333ef9019f69ed43ebb819f805b
+        tag: v1.0.2
+        commit: a7c69a29e52c46e4cfa251abec9ef89e92344cba
