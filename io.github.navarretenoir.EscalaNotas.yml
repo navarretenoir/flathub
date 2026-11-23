@@ -22,5 +22,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/navarretenoir/escalanotas.git
-        tag: v1.0
-        commit: cac5d3f569446387681453d75ce8c0749efe9ad6
+        tag: v1.1.2
+        commit: 32a555af8a70377aea74ab7caca2e2e26aa7481f
