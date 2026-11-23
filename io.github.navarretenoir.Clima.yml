@@ -31,5 +31,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/navarretenoir/clima.git
-        tag: v1.2.1
-        commit: ea7c2267e664a6dbc0e15eeb5aba20bfd1b35151
+        tag: v1.3.2
+        commit: 988f388cf4338b21e2256b41387bebf1c0a67a32
